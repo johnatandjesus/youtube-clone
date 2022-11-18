@@ -1,3 +1,14 @@
 .tumbnail {
   width: 300px;
 }
+.pesquisar {
+  font-size: 20px;
+  display: block;
+}
+.preview {
+  display: inline-block;
+  width: 300px;
+  margin-right: 15px;
+  margin-top: 15px;
+  vertical-align: top;
+}
