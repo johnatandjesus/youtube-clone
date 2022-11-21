@@ -1,0 +1,13 @@
+.titulo-preview {
+  font-weight: 500;
+}
+.texto-preview {
+  margin-bottom: 0;
+  line-height: 22px;
+  color: rgb(96, 96, 96);
+}
+
+.tumbnail {
+  width: 100%;
+  border-radius: 15px;
+}
