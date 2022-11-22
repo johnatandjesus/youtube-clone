@@ -3,6 +3,18 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: #fff;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ddd;
+
+  z-index: 999;
 }
 
 .left-section {
@@ -39,6 +51,7 @@
   border-color: rgb(180, 175, 175);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.1);
+  width: 0;
 }
 
 .pesquisar::placeholder {
@@ -75,6 +88,27 @@
   margin-top: 4px;
 }
 .right-section {
-  background-color: lightpink;
-  width: 200px;
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.upload-icon {
+  height: 24px;
+}
+
+.youtube-app-icon {
+  height: 24px;
+}
+
+.notification-icon {
+  height: 24px;
+}
+
+.user-profile-icon {
+  height: 36px;
+  border-radius: 18px;
 }
