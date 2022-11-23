@@ -2,7 +2,9 @@ body {
   margin: 0;
   padding-top: 80px;
   margin-bottom: 1000px;
-  padding: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(241, 241, 241);
 }
 p {
   margin-top: 0;
@@ -10,7 +12,7 @@ p {
 }
 
 .profile {
-  width: 40px;
+  width: 36px;
   border-radius: 20px;
 }
 
@@ -28,7 +30,7 @@ p {
 
 .container-preview {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 40px;
 }

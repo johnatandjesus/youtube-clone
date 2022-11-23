@@ -14,7 +14,7 @@
   border-bottom-style: solid;
   border-bottom-color: #ddd;
 
-  z-index: 999;
+  z-index: 1;
 }
 
 .left-section {
@@ -111,4 +111,25 @@
 .user-profile-icon {
   height: 36px;
   border-radius: 18px;
+}
+
+.notification-container {
+  position: relative;
+}
+
+.notification-number {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: rgb(204, 0, 0);
+  width: 18px;
+  height: 14px;
+  border-radius: 50%;
+  align-items: center;
+  color: #fff;
+  font-family: roboto, arial;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  padding-top: 4px;
 }
